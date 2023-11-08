@@ -1,0 +1,35 @@
+<!--Nama : Dea Lisriani Safitri Waruwu-->
+<!--NIM  : 121140208-->
+<!--Kelas: RB-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+    <div id="kalkulator">
+      <input type="text" id="layar" readonly>
+      <div id="tombol-container">
+        <button onclick="hapusSemua()">C</button>
+        <button onclick="tambahDigit('7')">7</button>
+        <button onclick="tambahDigit('8')">8</button>
+        <button onclick="tambahDigit('9')">9</button>
+        <button onclick="tambahOperasi('+')">+</button>
+        <button onclick="tambahDigit('4')">4</button>
+        <button onclick="tambahDigit('5')">5</button>
+        <button onclick="tambahDigit('6')">6</button>
+        <button onclick="tambahOperasi('-')">-</button>
+        <button onclick="tambahDigit('1')">1</button>
+        <button onclick="tambahDigit('2')">2</button>
+        <button onclick="tambahDigit('3')">3</button>
+        <button onclick="tambahOperasi('*')">*</button>
+        <button onclick="tambahDigit('0')">0</button>
+        <button onclick="tambahDigit('.')">.</button>
+        <button onclick="hitungHasil()">=</button>
+        <button onclick="tambahOperasi('/')">/</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
